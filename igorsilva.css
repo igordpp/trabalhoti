@@ -1,0 +1,180 @@
+body {
+        margin:0;
+        line-height: 1.5;
+        font-family: "Open Sans",verdana,sans-serif;
+        font-weight: 300;
+		      Box-sizing: border-box;
+        background-color:#e46325; 
+     }
+nav {padding: 1em 2em;}
+header {  background-image: url('imagens/iconsport.png');
+          background-color:#e46325;
+          color:white;
+          padding:1px;
+          position: fixed;
+          top:0;
+          left:0;
+	         right:0;
+	         width: 100%;
+          z-index:1000;
+          background-repeat: no-repeat;
+                 }
+
+nav#menuPrincipal h1 { color: black;
+            font-family:"Comic Sans MS", Comic Sans, cursive;
+            float: right;
+            margin-right: 120px;
+            margin-left: 120px;
+        }
+
+nav#menuPrincipal li a { color: black; }
+
+nav#menuPrincipal li a:hover { font-weight: bold; }
+
+nav#menuPrincipal { 
+					                float:right;
+			                		margin: 28px ;
+				  }
+
+nav#menuPrincipal a { text-decoration: none; }
+
+nav#menuPrincipal ul { 
+		padding: 0; 
+		margin:0;
+		list-style-type: none;
+		overflow: hidden;                
+	}	
+
+nav#menuPrincipal li {  padding: 3px;
+		                     	float:left;
+			                     margin-right: 1.5em;
+                        background-color: white;
+                        border: double 5px;
+                        border-color: black;
+				     	              border-radius: 20px;
+		 }
+		                
+ nav#menuInfo { margin-top:120px;
+                margin-left:250px;
+                margin-right:250px;
+                margin-bottom: 0px;
+		background-color:white;
+		border: double 10px;
+		border-color: black;
+														 }
+
+nav#menuInfo h4 {text-decoration: none;}
+
+nav#menuInfo li a {color: black;}
+
+nav#menuInfo li a:hover { font-weight: bold; }
+
+nav#menuInfo ul {list-style-type: none;
+         overflow: hidden;
+} 
+
+
+
+nav#menuInfo img {border: double 5px;
+          border-color: black;
+          float: right;
+          margin-right: 100px;
+}
+ 
+nav#menuInfo video {border: double 5px;
+            border-color: black;
+            float: right;
+            margin-right: 100px;
+												margin-left: 30px;
+            margin-top: 180px;
+            width: 250px;
+            height: 150px;
+            } 
+
+ nav#Fim {background-color: Black;
+	        color: white;
+        	margin-bottom: 0px;
+									border-radius: 30px;
+	}
+ nav#Fim h2 {float: left;
+		           font-family:"Comic Sans MS", Comic Sans, cursive;
+													margin-right: 300px;
+													margin-top: 80px;
+													}
+ 
+ nav#Fim ul {
+                display: inline-block;
+                text-align: center;
+           }
+ nav#Fim img {float: right;
+	             margin-top: 20px;
+														margin-right: 50px;
+	}
+nav#Fim li {list-style-type: none;}
+
+
+@media (max-width:935px)
+{
+  nav#menuInfo {
+        width: auto;
+        margin:0;
+								position: absolute;
+  }
+ 
+ header  { width: auto;
+           margin: 0;
+							    position: fixed;
+											z-index: 1000;
+ }
+ 
+header { background-size: 25%; }
+ nav#menuPrincipal h1 {width: 0px;
+                       height: 0px;
+                       margin-left: 0px;
+									           			margin-right: 33px;
+																						position: relative;
+																						text-align: center;
+																						font-size: small;
+}
+
+nav#menuInfo{position: relative;
+             width: auto;
+              margin-top: 110px;
+					     			}
+ 
+	nav#menuInfo video {width: 150px;
+                     height: 150px;
+																					position: relative;
+																					margin-right:0px;
+																					}
+	
+	nav#menuInfo img {width: 150px;
+                     height: 150px;
+																					position: relative;
+																					margin-right: 0px;
+																					
+																					}
+	nav#Fim{width: auto;
+         margin-bottom: 0;
+									margin-left: 0;
+									margin-right: 0;
+		       }
+	
+
+
+
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
